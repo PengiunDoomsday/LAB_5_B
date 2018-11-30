@@ -34,3 +34,7 @@ myheap = read_file_to_heap('numbers.txt')
 print("Heap array after insertion:-",myheap.heap_array)
 sheap = heap_sort(myheap)
 print("Heap sorted:----------------",sheap)
+
+#Please read comment
+#What happens when a non integer is added to the equation, 
+#lets say ")" or "sd" would the code still work? If it does would it use the ascii value of the character?
